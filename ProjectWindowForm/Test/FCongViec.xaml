@@ -1,0 +1,30 @@
+﻿<Window x:Class="Test.FCongViec"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test"
+        mc:Ignorable="d"
+        Title="FCongViec" Height="472" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <Image HorizontalAlignment="Left" Height="128" Margin="32,33,0,0" VerticalAlignment="Top" Width="135" Source="./Images/office-building.png">
+
+        </Image>
+        <TextBox HorizontalAlignment="Left" Margin="252,33,0,0" TextWrapping="Wrap" Text="Content Creator/Content Viral/Content TikTok/Content Social:&#xD;&#xA;&#x9;-CÔNG TY CỔ PHẦN ĐẦU TƯ HBR HOLDINGS&#xD;&#xA;&#x9;-Lương: 8.000.000 - 12.000.000/Tháng &#xD;&#xA;&#x9;-Việc làm fulltime · On-site&#xD;&#xA;&#x9;-Yêu cầu: Tối thiểu Tiểu Học và có 3 năm kinh nghiệm&#xD;&#xA;&#x9;" VerticalAlignment="Top" Width="405" Height="128" TextChanged="TextBox_TextChanged" FontSize="14"/>
+        <Label Content="Quyền lợi công việc:" HorizontalAlignment="Left" Margin="32,179,0,0" VerticalAlignment="Top" Width="152" FontSize="16" Foreground="#FFC10F0F"/>
+        <Image Source="./Images/fast-food.png" HorizontalAlignment="Left" Height="30" Margin="108,222,0,0" VerticalAlignment="Top" Width="33" OpacityMask="#FFB92424" RenderTransformOrigin="0.455,-0.378"/>
+        <Image Source="/Images/shield1.png" HorizontalAlignment="Left" Height="32" Margin="454,310,0,0" VerticalAlignment="Top" Width="32" OpacityMask="#FFB92424"/>
+        <Image Source="/Images/team.png" HorizontalAlignment="Left" Height="29" Margin="454,227,0,0" VerticalAlignment="Top" Width="32" OpacityMask="#FFB92424"/>
+        <Image Source="/Images/businessman.png" HorizontalAlignment="Left" Height="34" Margin="108,310,0,0" VerticalAlignment="Top" Width="32" OpacityMask="#FFB92424"/>
+        <Label Content="Hoạt động Team-Buiding" HorizontalAlignment="Left" Margin="483,227,0,0" Height="37" Width="147" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="137,237,0,0" TextWrapping="Wrap" Text="Tránh lãng phí thời gian và sức lực để tự mình mua đồ ăn tại nhà hàng hoặc trung tâm bán hàng rong. Chúng tôi sẽ cung cấp thực phẩm tốt nhất cho bạn và nhóm của bạn." VerticalAlignment="Top" Width="189" Height="73" BorderBrush="{x:Null}" FontSize="10" FontFamily="Bahnschrift Light"/>
+        <Label Content="Cơ hội phát triển nghề nghiệp" HorizontalAlignment="Left" Margin="137,306,0,0" Height="36" Width="189" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="140,326,0,0" TextWrapping="Wrap" Text="Bạn có bao giờ cảm thấy bế tắc với sự nghiệp của mình không? Chúng tôi không thuê bạn chỉ vì chúng tôi cần lấp đầy một chỗ trống, mà là chúng tôi cần bạn." VerticalAlignment="Top" Width="189" Height="55" BorderBrush="{x:Null}" FontSize="10" FontFamily="Bahnschrift Light"/>
+        <TextBox HorizontalAlignment="Left" Margin="483,246,0,0" TextWrapping="Wrap" Text="Đơn giản là công ty chúng tôi không thể hoạt động tốt nếu không có các nhóm người làm việc cùng nhau" VerticalAlignment="Top" Width="189" Height="45" BorderBrush="{x:Null}" FontSize="10" FontFamily="Bahnschrift Light"/>
+        <Label Content="Miễn phí đồ ăn uống" HorizontalAlignment="Left" Margin="137,218,0,0" Height="38" Width="130" VerticalAlignment="Top"/>
+        <Label Content="Bảo hiểm" HorizontalAlignment="Left" Margin="483,306,0,0" Height="38" Width="130" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="486,326,0,0" TextWrapping="Wrap" Text="Những điều bất ngờ có thể xảy ra vào những thời điểm không ngờ tới. Chúng tôi chi trả các chi phí bảo hiểm cơ bản cho bạn và người thân của bạn trong trường hợp khẩn cấp" VerticalAlignment="Top" Width="189" Height="73" BorderBrush="{x:Null}" FontSize="10" FontFamily="Bahnschrift Light"/>
+        <Button Content="NHẬN CÔNG&#xD;&#xA; VIỆC" HorizontalAlignment="Left" Margin="696,64,0,0" VerticalAlignment="Top" Height="55" Width="80" Background="#FF7DD4D6" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click"/>
+        <Button Content="Quay lại" HorizontalAlignment="Left" Margin="32,389,0,0" VerticalAlignment="Top" Height="29" Width="94" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFFB8686" FontSize="16" FontWeight="Bold" Click="Button_Click1"/>
+    </Grid>
+</Window>
