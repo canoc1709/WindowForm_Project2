@@ -74,8 +74,6 @@ namespace Test
             {
                 MessageBox.Show("Vui lòng chọn chức vụ!");
             }
-
-
         }
     }
 }
