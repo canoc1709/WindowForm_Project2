@@ -16,8 +16,10 @@
         <TextBox HorizontalAlignment="Left" Margin="196,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="White"/>
         <TextBox HorizontalAlignment="Left" Margin="196,266,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="White"/>
         <TextBox HorizontalAlignment="Left" Margin="196,296,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="White"/>
-        <Button Content="Đăng kí" HorizontalAlignment="Left" Margin="240,367,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.17,0.603" Height="29" Width="86" Background="#FFE2A8A8" Click="Button_Click"/>
-        <Button Content="Quay lại" HorizontalAlignment="Left" Margin="71,367,0,0" VerticalAlignment="Top" Height="29" Width="91" Background="#FFE2A8A8" Click="Button_Click_1"/>
+        <Button Content="Đăng kí" HorizontalAlignment="Left" Margin="134,374,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.17,0.603" Height="29" Width="86" Background="#FFE2A8A8" Click="Button_Click"/>
+        <Button Content="Quay lại" HorizontalAlignment="Left" Margin="134,422,0,0" VerticalAlignment="Top" Height="29" Width="86" Background="#FFE2A8A8" Click="Button_Click_1"/>
+        <RadioButton x:Name="Checkbox_Ungvien" Content="Ứng viên" HorizontalAlignment="Left" Height="16" Margin="81,336,0,0" VerticalAlignment="Top" Width="86" Foreground="#FF00FFFA"/>
+        <RadioButton x:Name="Checkbox_Nhanvien" Content="Nhân viên" HorizontalAlignment="Left" Height="16" Margin="213,336,0,0" VerticalAlignment="Top" Width="86" Foreground="#FF00FFFA"/>
 
     </Grid>
 </Window>

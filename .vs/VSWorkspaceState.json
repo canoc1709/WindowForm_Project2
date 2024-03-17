@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ProjectWindowForm",
+    "\\ProjectWindowForm\\Test"
   ],
+  "SelectedNode": "\\ProjectWindowForm\\Test\\Dangnhap.xaml.cs",
   "PreviewInSolutionExplorer": false
 }
