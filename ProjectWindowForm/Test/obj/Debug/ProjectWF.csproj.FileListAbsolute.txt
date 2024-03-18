@@ -82,3 +82,45 @@ C:\Users\Tuan Kiet\Source\Repos\WindowForm_Project2\ProjectWindowForm\Test\obj\D
 C:\Users\Tuan Kiet\Source\Repos\WindowForm_Project2\ProjectWindowForm\Test\obj\Debug\ProjectWF.csproj.Up2Date
 C:\Users\Tuan Kiet\Source\Repos\WindowForm_Project2\ProjectWindowForm\Test\obj\Debug\Test.exe
 C:\Users\Tuan Kiet\Source\Repos\WindowForm_Project2\ProjectWindowForm\Test\obj\Debug\Test.pdb
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\bin\Debug\Test.exe.config
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\bin\Debug\Test.exe
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\bin\Debug\Test.pdb
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\bin\Debug\MaterialDesignColors.dll
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\ProjectWF.csproj.AssemblyReference.cache
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\Theme\Textbox.baml
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\CongViec.g.cs
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\Dangki.g.cs
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\Dangnhap.g.cs
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\FCongViec.g.cs
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\HoSoDangKi.g.cs
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\MainWindow.g.cs
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\TimKiemCongViec.g.cs
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\Trangchu.g.cs
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\App.g.cs
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\Test_MarkupCompile.cache
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\Test_MarkupCompile.lref
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\App.baml
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\CongViec.baml
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\Dangki.baml
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\Dangnhap.baml
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\FCongViec.baml
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\HoSoDangKi.baml
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\MainWindow.baml
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\TimKiemCongViec.baml
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\Trangchu.baml
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\Test.g.resources
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\Test.Properties.Resources.resources
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\ProjectWF.csproj.GenerateResource.cache
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\ProjectWF.csproj.CoreCompileInputs.cache
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\ProjectWF.csproj.CopyComplete
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\Test.exe
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\Test.pdb
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\FVP_CongTy.g.cs
+C:\Users\Yordle\OneDrive\Desktop\Project_18.3\ProjectWindowForm\Test\obj\Debug\FVP_CongTy.baml

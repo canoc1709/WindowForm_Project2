@@ -15,18 +15,13 @@ using System.Windows.Shapes;
 namespace Test
 {
     /// <summary>
-    /// Interaction logic for HoSoNhanVien.xaml
+    /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class HoSoNhanVien : Window
+    public partial class FVP_CongTy : Window
     {
-        public HoSoNhanVien()
+        public FVP_CongTy()
         {
             InitializeComponent();
-        }
-
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
         }
     }
 }

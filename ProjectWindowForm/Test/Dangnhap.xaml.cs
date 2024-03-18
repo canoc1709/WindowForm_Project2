@@ -58,22 +58,19 @@ namespace Test
         }
         private void Dangnhap_click(object sender, RoutedEventArgs e)
         {
-            if (Checkbox_Ungvien.IsChecked == true)
+            if (Check_Ungvien.IsChecked == true)
             {
                 Trangchu trangchu = new Trangchu();
                 trangchu.Show();
                 this.Close();
             }
-            else if (Checkbox_Nhanvien.IsChecked == true)
+            else if(Check_Nhanvien.IsChecked == true)
             {
-                HoSoNhanVien hsnhanvien = new HoSoNhanVien();
-                hsnhanvien.Show();
-                this.Close();
+                    FVP_CongTy vP_CongTy = new FVP_CongTy();
+                    vP_CongTy.Show();
+                    this.Close();
             }
-            else
-            {
-                MessageBox.Show("Vui lòng chọn chức vụ!");
-            }
+
         }
     }
 }

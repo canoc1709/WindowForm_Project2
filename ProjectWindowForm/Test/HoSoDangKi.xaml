@@ -6,19 +6,23 @@
              xmlns:local="clr-namespace:Test"
              mc:Ignorable="d" d:DesignWidth="875" Height="525">
     <Grid Background="White">
-        <StackPanel Margin="75,0,595,318" >
-            <Image Width="154" Height="201"
-       Source="Images/profile.png"/>
+        <StackPanel Margin="24,6,646,312" HorizontalAlignment="Left" VerticalAlignment="Top" >
+            <Image x:Name="imgNhanVien" Width="154" Height="201"
+       Source="Images/profile.png" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         </StackPanel>
-        <StackPanel Margin="0,212,0,0">
-            <Label Content="Bio:" FontSize="20" Width="655"/>
-        </StackPanel>
-        <Label Content="Họ tên" HorizontalAlignment="Left" Margin="298,63,0,0" VerticalAlignment="Top" Height="40" Width="58"/>
-        <Label Content="Năm sinh" HorizontalAlignment="Left" Margin="297,108,0,0" VerticalAlignment="Top" Height="28" Width="59"/>
-        <Label Content="Email" HorizontalAlignment="Left" Margin="298,150,0,0" VerticalAlignment="Top" Height="29" Width="59"/>
-        <TextBox x:Name="txtHoTen_Dangky" HorizontalAlignment="Left" Margin="381,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" RenderTransformOrigin="0.037,0.601"/>
-        <TextBox x:Name="txtNamSinh_Dangky" HorizontalAlignment="Left" Margin="381,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" RenderTransformOrigin="0.15,0.445"/>
-        <TextBox x:Name="txtEmail_Dangky" HorizontalAlignment="Left" Margin="381,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159"/>
+
+        <Label x:Name="lbHoTen" Content="Họ tên" HorizontalAlignment="Left" Margin="276,63,0,0" VerticalAlignment="Top" Height="27" Width="54"/>
+        <Label x:Name="lbNamSinh" Content="Năm sinh" HorizontalAlignment="Left" Margin="276,131,0,0" VerticalAlignment="Top" Height="28" Width="80"/>
+        <Label x:Name="lbEmail" Content="Email" HorizontalAlignment="Left" Margin="276,164,0,0" VerticalAlignment="Top" Height="29" Width="81"/>
+        <TextBox x:Name="txtHoTen_Dangky" HorizontalAlignment="Left" Margin="376,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" RenderTransformOrigin="0.037,0.601"/>
+        <TextBox x:Name="txtNamSinh_Dangky" HorizontalAlignment="Left" Margin="376,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" RenderTransformOrigin="0.15,0.445"/>
+        <TextBox x:Name="txtEmail_Dangky" HorizontalAlignment="Left" Margin="376,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lbGioiTinh" Content="Giới tính" HorizontalAlignment="Left" Margin="276,95,0,0" VerticalAlignment="Top" Height="24" Width="63"/>
+        <Label x:Name="lbSDT" Content="SĐT" HorizontalAlignment="Left" Margin="277,198,0,0" VerticalAlignment="Top" Height="28" Width="80"/>
+        <Label x:Name="lbKinhNghiem" Content="Kinh nghiệm" HorizontalAlignment="Left" Margin="277,231,0,0" VerticalAlignment="Top" Height="29" Width="81"/>
+        <TextBox x:Name="txtGioiTinh" HorizontalAlignment="Left" Margin="376,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" RenderTransformOrigin="0.037,0.601"/>
+        <TextBox x:Name="txtSDT" HorizontalAlignment="Left" Margin="376,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" RenderTransformOrigin="0.15,0.445"/>
+        <TextBox x:Name="txtKinhNghiem" HorizontalAlignment="Left" Margin="376,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159"/>
 
     </Grid>
 </UserControl>

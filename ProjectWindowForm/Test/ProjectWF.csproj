@@ -76,9 +76,6 @@
     <Compile Include="HoSoDangKi.xaml.cs">
       <DependentUpon>HoSoDangKi.xaml</DependentUpon>
     </Compile>
-    <Compile Include="HoSoNhanVien.xaml.cs">
-      <DependentUpon>HoSoNhanVien.xaml</DependentUpon>
-    </Compile>
     <Compile Include="TaiKhoan.cs" />
     <Compile Include="TimKiemCongViec.xaml.cs">
       <DependentUpon>TimKiemCongViec.xaml</DependentUpon>
@@ -87,6 +84,9 @@
       <DependentUpon>Trangchu.xaml</DependentUpon>
     </Compile>
     <Compile Include="UngVien.cs" />
+    <Compile Include="FVP_CongTy.xaml.cs">
+      <DependentUpon>FVP_CongTy.xaml</DependentUpon>
+    </Compile>
     <Page Include="CongViec.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -104,10 +104,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="HoSoDangKi.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="HoSoNhanVien.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -138,6 +134,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Trangchu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FVP_CongTy.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
