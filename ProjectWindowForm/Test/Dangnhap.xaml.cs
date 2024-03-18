@@ -56,46 +56,24 @@ namespace Test
             dangki.Show();
             this.Close();
         }
-
-        private void Checked_Ungvien(object sender, RoutedEventArgs e)
-        {
-            if(Checkbox_Ungvien.IsChecked == true)
-            {
-                Checkbox_Nhanvien.IsChecked = false;
-            }
-        }
-
-        private void Checked_Nhanvien(object sender, RoutedEventArgs e)
-        {
-            if(Checkbox_Nhanvien.IsChecked == true)
-            {
-                Checkbox_Ungvien.IsChecked = false;
-            }
-        }
-
         private void Dangnhap_click(object sender, RoutedEventArgs e)
         {
-            if(Checkbox_Ungvien.IsChecked == true)
+            if (Checkbox_Ungvien.IsChecked == true)
             {
                 Trangchu trangchu = new Trangchu();
                 trangchu.Show();
                 this.Close();
             }
+            else if (Checkbox_Nhanvien.IsChecked == true)
+            {
+                HoSoNhanVien hsnhanvien = new HoSoNhanVien();
+                hsnhanvien.Show();
+                this.Close();
+            }
             else
             {
-                if(Checkbox_Nhanvien.IsChecked == true)
-                {
-                    HoSoNhanVien hsnhanvien = new HoSoNhanVien();
-                    hsnhanvien.Show();
-                    this.Close();
-                }
-                else
-                {
-                    MessageBox.Show("Vui lòng chọn chức vụ!");
-                }
+                MessageBox.Show("Vui lòng chọn chức vụ!");
             }
-            
-            
         }
     }
 }

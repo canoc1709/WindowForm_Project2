@@ -86,6 +86,7 @@
     <Compile Include="Trangchu.xaml.cs">
       <DependentUpon>Trangchu.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UngVien.cs" />
     <Page Include="CongViec.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
