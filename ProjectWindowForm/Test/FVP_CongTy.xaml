@@ -12,9 +12,9 @@
             Source="Images/profile.png"/>
         </StackPanel>
         <TextBox x:Name="txtTenCongTy" Margin="208,10,10,0" TextWrapping="Wrap" Text="CÔNG TY TRÁCH NHIỆM HỮU HẠN BA THÀNH VIÊN" Width="582" Height="72" FontFamily="Segoe Print" FontSize="20" TextAlignment="Center" FontWeight="Bold" VerticalAlignment="Top" Background="#E6E6FA"/>
-        <TextBox Margin="50,187,598,0" TextWrapping="Wrap" Text="Số điện thoại" VerticalAlignment="Top" Height="30" FontSize="16"/>
-        <TextBox HorizontalAlignment="Left" Margin="50,271,0,0" TextWrapping="Wrap" Text="Mail" VerticalAlignment="Top" Width="152" Height="30" FontSize="16"/>
-        <TextBox HorizontalAlignment="Left" Margin="50,359,0,0" TextWrapping="Wrap" Text="Địa chỉ" VerticalAlignment="Top" Width="152" Height="30" FontSize="16"/>
+        <TextBox Margin="24,187,624,0" TextWrapping="Wrap" Text="Số điện thoại" VerticalAlignment="Top" Height="30" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Margin="24,238,0,0" TextWrapping="Wrap" Text="Mail" VerticalAlignment="Top" Width="152" Height="30" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Margin="24,287,0,0" TextWrapping="Wrap" Text="Địa chỉ" VerticalAlignment="Top" Width="152" Height="30" FontSize="16"/>
         <Image x:Name ="iconMail" HorizontalAlignment="Left" Height="31" Margin="24,394,0,0" VerticalAlignment="Top" Width="31" Source="Images/"/>
         <Image x:Name="iconAddress"  HorizontalAlignment="Left" Height="31" Margin="280,394,0,0" VerticalAlignment="Top" Width="31" RenderTransformOrigin="1.27,0.516"/>
         <Image x:Name="iconPhone" HorizontalAlignment="Left" Height="31" Margin="554,394,0,0" VerticalAlignment="Top" Width="31" RenderTransformOrigin="1.27,0.516"/>
@@ -22,19 +22,20 @@
             <TabItem Header="Tuyển việc" Width="80" Height="30" Background="#E6E6FA">
                 <Grid Background="#F8F8FF">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="107*"/>
-                        <ColumnDefinition Width="469*"/>
+
                     </Grid.ColumnDefinitions>
-                    <TextBox HorizontalAlignment="Left" Margin="45,21,0,0" TextWrapping="Wrap" Text="Chức vụ here" VerticalAlignment="Top" Width="218" Height="19" Grid.Column="1"/>
-                    <TextBox HorizontalAlignment="Left" Margin="45,61,0,0" TextWrapping="Wrap" Text="Yêu cầu here" VerticalAlignment="Top" Width="218" Height="19" Grid.Column="1"/>
-                    <TextBox HorizontalAlignment="Left" Margin="45,101,0,0" TextWrapping="Wrap" Text="Lương here" VerticalAlignment="Top" Width="218" Height="19" Grid.Column="1"/>
-                    <TextBlock HorizontalAlignment="Left" Height="70" Margin="45,140,0,0" TextWrapping="Wrap" Text="Mô tả here" VerticalAlignment="Top" Width="218" Grid.Column="1"/>
-                    <TextBlock HorizontalAlignment="Left" Height="177" Margin="285,61,0,0" TextWrapping="Wrap" Text="Phúc lợi here" VerticalAlignment="Top" Width="174" Grid.Column="1"/>
-                    <Label Content="Tuyển chức vụ" HorizontalAlignment="Left" Margin="10,17,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.245,-0.252" Width="133" FontSize="15" FontWeight="Bold" Grid.ColumnSpan="2"/>
-                    <Label Content="Yêu cầu" HorizontalAlignment="Left" Margin="10,53,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.245,-0.252" Width="133" FontSize="15" FontWeight="Bold" Height="35" Grid.ColumnSpan="2"/>
-                    <Label Content="Lương" HorizontalAlignment="Left" Margin="10,93,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.245,-0.252" Width="133" FontSize="15" FontWeight="Bold" Grid.ColumnSpan="2"/>
-                    <Label Content="Mô tả công việc" HorizontalAlignment="Left" Margin="10,132,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.245,-0.252" Width="133" FontSize="15" FontWeight="Bold" Grid.ColumnSpan="2"/>
-                    <Label Content="Phúc lợi" HorizontalAlignment="Left" Margin="285,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.245,-0.252" Width="184" FontSize="20" FontWeight="Bold" Height="46" HorizontalContentAlignment="Center" Grid.Column="1"/>
+                    <TextBox HorizontalAlignment="Left" Margin="138,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" Height="19"/>
+                    <TextBox HorizontalAlignment="Left" Margin="138,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" Height="19"/>
+                    <TextBox HorizontalAlignment="Left" Margin="138,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" Height="19"/>
+                    <Label Content="Tuyển chức vụ" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.245,-0.252" Width="113" FontSize="15" FontWeight="Bold"/>
+                    <Label Content="Yêu cầu" HorizontalAlignment="Left" Margin="10,89,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.245,-0.252" Width="66" FontSize="15" FontWeight="Bold" Height="35"/>
+                    <Label Content="Lương" HorizontalAlignment="Left" Margin="10,129,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.245,-0.252" Width="66" FontSize="15" FontWeight="Bold" Height="31"/>
+                    <Label Content="Mô tả công việc" HorizontalAlignment="Left" Margin="10,179,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.245,-0.252" Width="133" FontSize="15" FontWeight="Bold"/>
+                    <Label Content="Phúc lợi" HorizontalAlignment="Left" Margin="378,6,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.245,-0.252" Width="184" FontSize="20" FontWeight="Bold" Height="46" HorizontalContentAlignment="Center"/>
+                    <TextBox HorizontalAlignment="Left" Margin="138,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" Height="59"/>
+                    <TextBox HorizontalAlignment="Left" Margin="392,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="181"/>
+                    <Label Content="Tên công ty" HorizontalAlignment="Left" Margin="10,14,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.245,-0.252" Width="113" FontSize="15" FontWeight="Bold"/>
+                    <TextBox HorizontalAlignment="Left" Margin="138,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" Height="19"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Xem hồ sơ" Width="80" Height="30" Background="#E6E6FA">

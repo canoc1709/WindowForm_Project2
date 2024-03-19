@@ -7,15 +7,21 @@
              mc:Ignorable="d" Height="151" Width="650">
     <Grid>
         <Rectangle HorizontalAlignment="Center" Height="151" VerticalAlignment="Top" Width="650" RadiusY="58.656" RadiusX="58.656" Fill="#FF9C8181"/>
-        <StackPanel Orientation="Horizontal">
+        <StackPanel Orientation="Horizontal" Margin="0,0,423,0">
             <Rectangle Height="125" Width="190" RadiusX="50" RadiusY="50" Margin="30,0,0,0">
                 <Rectangle.Fill>
                     <ImageBrush ImageSource="{Binding URL}" Stretch="Uniform" />
                 </Rectangle.Fill>
             </Rectangle>
-            <Label Content="{Binding Title}"  Width="338" Height="134" FontSize="20"/>
-            
-            <Button Width="76" Height="92" Background="{x:Null}" Click="Button_Click" Content="Xem chi tiết " BorderBrush="{x:Null}" FontWeight="Bold"></Button>
+        </StackPanel>
+        <StackPanel Margin="227,0,130,0">
+            <TextBox   Width="313" Height="29" FontSize="20" Text="Tên công ty" Background="{x:Null}" BorderBrush="{x:Null}"/>
+            <TextBox   Width="313" Height="33" FontSize="20" Background="{x:Null}" BorderBrush="{x:Null}" Text="Tuyển chức vụ"/>
+            <TextBox   Width="313" Height="33" FontSize="20" Text="Lương" Background="{x:Null}" BorderBrush="{x:Null}"/>
+            <TextBox   Width="313" Height="33" FontSize="20" Text="Yêu cầu" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        </StackPanel>
+        <StackPanel Margin="526,26,0,34" HorizontalAlignment="Left" Width="107">
+            <Button Height="88" Width="107" Content="Xem chi tiết" Background="{x:Null}" BorderBrush="{x:Null}" />
         </StackPanel>
     </Grid>
 </UserControl>
