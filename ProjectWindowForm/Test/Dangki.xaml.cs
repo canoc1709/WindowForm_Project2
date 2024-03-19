@@ -19,6 +19,7 @@ namespace Test
     /// </summary>
     public partial class Dangki : Window
     {
+        UngvienDAO ungvienDAO;
         public Dangki()
         {
             InitializeComponent();
@@ -32,6 +33,11 @@ namespace Test
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            if(rbtCheck_Ungvien.IsChecked == true)
+            {
+                ungvienDAO = new UngvienDAO();
+                ungvienDAO.Themtaikhoan(txtUsername.Text, txtPassword.Text, txtMail.Text);
+            }
             Dangnhap dangnhap = new Dangnhap();
             dangnhap.Show();
             this.Close();

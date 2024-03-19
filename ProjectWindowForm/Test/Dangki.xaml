@@ -12,14 +12,14 @@
         <Label Content="Email:" HorizontalAlignment="Left" Margin="46,296,0,0" VerticalAlignment="Top" OpacityMask="Black" Foreground="#FFE2CC39" FontFamily="Arial Black"/>
         <Label Content="Tên tài khoản:" HorizontalAlignment="Left" Margin="45,197,0,0" VerticalAlignment="Top" OpacityMask="Black" Foreground="#FFE2CC39" FontFamily="Arial Black"/>
         <Label Content="Mật khẩu:" HorizontalAlignment="Left" Margin="45,231,0,0" VerticalAlignment="Top" OpacityMask="Black" Foreground="#FFE2CC39" FontFamily="Arial Black"/>
-        <TextBox HorizontalAlignment="Left" Margin="196,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="White"/>
-        <TextBox HorizontalAlignment="Left" Margin="196,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="White"/>
+        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Margin="196,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="White"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="196,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="White"/>
         <TextBox HorizontalAlignment="Left" Margin="196,266,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="White"/>
-        <TextBox HorizontalAlignment="Left" Margin="196,296,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="White"/>
+        <TextBox x:Name="txtMail" HorizontalAlignment="Left" Margin="196,296,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="White"/>
         <Button Content="Đăng kí" HorizontalAlignment="Left" Margin="134,374,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.17,0.603" Height="29" Width="86" Background="#FFE2A8A8" Click="Button_Click"/>
         <Button Content="Quay lại" HorizontalAlignment="Left" Margin="134,422,0,0" VerticalAlignment="Top" Height="29" Width="86" Background="#FFE2A8A8" Click="Button_Click_1"/>
-        <RadioButton x:Name="Checkbox_Ungvien" Content="Ứng viên" HorizontalAlignment="Left" Height="16" Margin="81,336,0,0" VerticalAlignment="Top" Width="86" Foreground="#FF00FFFA"/>
-        <RadioButton x:Name="Checkbox_Nhanvien" Content="Nhân viên" HorizontalAlignment="Left" Height="16" Margin="213,336,0,0" VerticalAlignment="Top" Width="86" Foreground="#FF00FFFA"/>
+        <RadioButton x:Name="rbtCheck_Ungvien" Content="Ứng viên" HorizontalAlignment="Left" Height="16" Margin="81,336,0,0" VerticalAlignment="Top" Width="86" Foreground="#FF00FFFA"/>
+        <RadioButton x:Name="rbtCheckbox_Nhanvien" Content="Nhân viên" HorizontalAlignment="Left" Height="16" Margin="213,336,0,0" VerticalAlignment="Top" Width="86" Foreground="#FF00FFFA"/>
 
     </Grid>
 </Window>

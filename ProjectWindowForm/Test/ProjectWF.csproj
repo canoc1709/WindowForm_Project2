@@ -66,6 +66,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="UngvienDAO.cs" />
+    <Compile Include="Congty.cs" />
     <Compile Include="CongViec.xaml.cs">
       <DependentUpon>CongViec.xaml</DependentUpon>
     </Compile>

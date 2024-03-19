@@ -36,13 +36,49 @@ namespace Test
 			get { return mail; }
 			set { mail = value; }
 		}
-		public UngVien() { }
-		public UngVien(int id,string name,string phonenumber,string mail)
+		private string experience;
+
+		public string Experience
+        {
+			get { return experience; }
+			set { experience = value; }
+		}
+		private DateTime birthdate;
+
+		public DateTime Birthdate
+        {
+			get { return birthdate; }
+			set { birthdate = value; }
+		}
+		private string sex;
+
+		public string Sex
 		{
-			this.id = id;
-			this.name = name;
-			this.phonenumber = phonenumber;
-			this.mail = mail;
+			get { return sex; }
+			set { sex = value; }
+		}
+		private string username;
+
+		public string Username
+		{
+			get { return username; }
+		}
+		private string password;
+
+		public string Password
+		{
+			get { return password; }
+		}
+
+		public UngVien() { }
+		public UngVien(int id,string name,string sex,string phonenumber,string mail, DateTime birthdate)
+		{
+			ID = id;
+			Name = name;
+			Sex = sex;
+			Phonenumber = phonenumber;
+			Mail = mail;
+			Birthdate = birthdate;
 		}
 		public bool Checknull(object myObject)
 		{
